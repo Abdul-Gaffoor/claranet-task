@@ -95,7 +95,7 @@ resource "aws_route_table" "private" {
   vpc_id = aws_vpc.claranet.id
 
   tags = {
-    Name = var.vpc-config.nat_gateway_routetable_name
+    Name = "${var.vpc-config.nat_gateway_routetable_name}-${element(["a", "b"], count.index)}"
   }
 }
 

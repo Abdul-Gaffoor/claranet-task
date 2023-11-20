@@ -1,7 +1,7 @@
 # AWS Account Details
 aws-config = {
-    access_key          = "AKIAT2NEKR3QMM3EYQXZ" # Note These are Dummy
-    secret_key          = "rd0oZwHTytzUpRlb6iTd/Kt//BkZnJp+BTLC50nF" # Note These are Dummy
+    access_key          = "AKIAT2NEKR3QCC6CBWFO" # Note These are Dummy
+    secret_key          = "tg/h6ket3hwa9tthTq2zCPvCPjgCczRfQyAb9lmL" # Note These are Dummy
     region_primary      = "ap-south-1"
     environment         = "Claranet_Task_For_Abdul"
     owner               = "Claranet"
